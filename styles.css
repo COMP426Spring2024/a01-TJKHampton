@@ -1,18 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #7fe7fa;
 }
 
 h1 {
     text-align: center;
 }
 
+select {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 img {
-    float: right
+    float: right;
+    height: 400px; 
+    width: 400px;
 }
 
 #solo {
     justify-content: center
+}
+
+table {
+    background-color: #fcfcfc;
 }
 
 table, th, td {
@@ -27,7 +38,7 @@ table, th, td {
     margin-top: 30px;
 }
 
-.link {
+.link-container .link {
     text-align: center;
     padding: 20px;
     border: 1px solid #ccc;
@@ -36,5 +47,5 @@ table, th, td {
 }
 
 .link:hover {
-    background-color: #f0f0f0;
+    background-color: #fcfcfc;
 }
